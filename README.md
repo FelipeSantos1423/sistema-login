@@ -5,11 +5,8 @@
 - *Nome do Projeto:* Sistema de login e Cadastro
 - *Descrição:* Este projeto tem como objetivo criar um sistema de cadastro e login com dados salvos no banco de dados. 
 - *Tecnologias Utilizadas:* PHP, MySQL, CSS, Xampp.
-- *Autor(es):* Gustavo Sebastião;
-                 Felipe dos Santos Pinto,
-                 Arad Bela,
-                 Henrique dos Santos Pinto;
-                 Ailton José.
+- *Autor(es):*   Felipe dos Santos Pinto,
+                 Henrique dos Santos Pinto.
 - *Data de início:* 08/06/2025 
 
 ## 2 Estrutura do Projeto 
@@ -18,6 +15,7 @@ etec-login-poo/
 │
 ├── assets/
 │ └── style.css # Estilo da interface
+│ └── exibe.css # Estilo da interface da página de exibição
 │
 ├── config/
 │ ├── Database.php # Conexão com banco (PDO)
@@ -29,6 +27,7 @@ etec-login-poo/
 │
 ├── public/
 │ ├── cadastro.php # Tela de cadastro
+│ ├── exibe-dados.php # Tela de exibição
 │ ├── login.php # Tela de login
 │ ├── process_cadastro.php # Processamento do cadastro
 │ └── process_login.php # Processamento do login
@@ -37,6 +36,9 @@ etec-login-poo/
 │ └── Sanitizacao.php # Funções de sanitização e validação
 │
 └── README.md
+README.md
+diagrama_db.mwb
+dump_db_23-06.sql
 
 ## 3 Configuração do Ambiente 
 ### *Requisitos* 
